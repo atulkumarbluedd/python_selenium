@@ -56,3 +56,12 @@ print(sum(nums))
 
 mix_lists=['paul',89,90,90.0] # allowed any type of values
 print(mix_lists)
+
+copy_mixList=mix_lists;
+
+copy_mixList.append('s')
+print(copy_mixList)
+# using copy method to copy list
+
+copy_1=mix_lists.copy()
+print(copy_1)

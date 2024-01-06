@@ -1,5 +1,5 @@
-# from selenium import webdriver
-# from selenium.webdriver.firefox.service import service
+# from SeleniumHandsOn import webdriver
+# from SeleniumHandsOn.webdriver.firefox.service import service
 import selenium
 
 selenium.__version__
